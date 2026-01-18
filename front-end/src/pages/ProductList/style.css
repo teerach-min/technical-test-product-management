@@ -1,0 +1,119 @@
+.product-list-container {
+  padding: 32px;
+  margin: 0 auto;
+}
+
+.product-list-container h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #213547;
+}
+
+.filter-section {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.filter-section label {
+  font-weight: 500;
+  color: #213547;
+}
+
+.category-select {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 32px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-table thead {
+  background-color: #4caf50;
+  color: white;
+}
+
+.product-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid #2e7d32;
+}
+
+.product-table td {
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+.product-table tbody tr {
+  transition: background-color 0.2s;
+}
+
+.product-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.product-table tbody tr.row-empty {
+  background-color: #ffebee;
+}
+
+.stock-low {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.sell-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.sell-button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.sell-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.summary-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-top: 32px;
+}
+
+.summary-item {
+  font-size: 18px;
+  color: #213547;
+}
+
+.summary-item strong {
+  color: #4caf50;
+  margin-right: 8px;
+}
